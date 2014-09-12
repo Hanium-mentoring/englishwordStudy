@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|center_horizontal"
+    android:background="#000000"
+    
+    tools:context=".QCircleActivity" >
+
+    <RelativeLayout
+        android:id="@+id/quiz_main_view2"
+        android:layout_width="@dimen/physical_width_of_quickcircle"
+        android:layout_height="@dimen/physical_height_of_quickcircle"
+        android:background="@drawable/fishb" >
+        
+         <LinearLayout
+        android:id="@+id/quiz_main_view"
+        android:layout_width="@dimen/physical_width_of_quickcircle"
+        android:layout_height="@dimen/physical_height_of_quickcircle"
+        android:layout_gravity="center_horizontal"
+       
+        android:weightSum="6"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/quiz_voca"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:background="#00ff0000"
+               android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:text="맞힌개수 : 0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+             android:layout_height="0dip"
+             android:layout_weight="2"
+             android:weightSum="2"
+              >
+
+            <Button
+                android:id="@+id/example1"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/fish1" />
+
+        <Button
+            android:id="@+id/example2"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/fish2" />
+        
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/bubble" />
+
+ 		<LinearLayout
+            android:layout_width="match_parent"
+             android:layout_height="0dip"
+             android:layout_weight="2"
+             android:weightSum="2"
+              >
+            
+        <Button
+            android:id="@+id/example4"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/fish4" />
+
+        <Button
+            android:id="@+id/example3"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/fish3" />
+        
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/quiz_back_btn"
+            android:layout_width="43dp"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginBottom="37dp"
+            android:background="@drawable/backbutton" />
+
+       
+    </LinearLayout>
+    
+    </RelativeLayout>
+
+   
+
+</RelativeLayout>

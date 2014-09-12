@@ -1,0 +1,14 @@
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_gravity="top|center_horizontal" android:background="@android:color/transparent" tools:context=".QCircleActivity">
+
+ <RelativeLayout
+     android:id="@+id/cover_main_view"
+     android:layout_width="@dimen/physical_width_of_quickcircle"
+     android:layout_height="@dimen/physical_height_of_quickcircle"
+     android:layout_gravity="center_horizontal"
+     android:background="@drawable/pink_ex" >
+
+  <Button android:id="@+id/back_btn" android:layout_width="43dp" android:layout_height="23dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginBottom="37dp" android:background="@drawable/backbutton" /> 
+  <Button android:id="@+id/score1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:background="#00ff0000" android:text="Button" /> 
+  <Button android:id="@+id/mycoment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/score1" android:layout_marginBottom="29dp" android:background="#00ff0000" android:layout_toRightOf="@+id/score1" android:text="Button" /> 
+  </RelativeLayout>
+  </RelativeLayout>

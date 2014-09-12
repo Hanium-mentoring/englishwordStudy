@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+ 	<!-- physical width(mm) of quickcircle window -->
+    <dimen name="physical_width_of_quickcircle">52mm</dimen>
+    <!-- physical height(mm) of quickcircle window -->
+    <dimen name="physical_height_of_quickcircle">52mm</dimen>
+</resources>

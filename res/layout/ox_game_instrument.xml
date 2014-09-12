@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|center_horizontal"
+    android:background="#000000"
+    tools:context=".QCircleActivity" >
+
+  	<RelativeLayout
+  	    android:id="@+id/ox_game_instrument_view"
+  	    android:layout_width="@dimen/physical_width_of_quickcircle"
+  	    android:layout_height="@dimen/physical_height_of_quickcircle"
+  	    android:layout_gravity="center_horizontal"
+  	    android:background="@drawable/moon_background" >
+
+  		<TextView
+  		    android:id="@+id/textView1"
+  		    android:layout_width="200dp"
+  		    android:layout_height="wrap_content"
+  		    android:layout_centerHorizontal="true"
+  		    android:layout_centerVertical="true"
+  		    android:text="지금까지 공부한 단어중 랜덤으로 5개의 단어를 골라 문제가 출제됩니다.문제를 보시고 o,x 중 하나를 선택하세요."
+  		    android:textColor="@android:color/white"
+  		    android:textSize="20dp" />
+  	    
+    </RelativeLayout>
+
+</RelativeLayout>

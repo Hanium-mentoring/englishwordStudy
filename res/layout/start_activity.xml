@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|center_horizontal"
+    android:background="#000000"
+    tools:context=".QCircleActivity" >
+
+  	<RelativeLayout
+        android:id="@+id/start_activity_view"
+        android:layout_width="@dimen/physical_width_of_quickcircle"
+        android:layout_height="@dimen/physical_height_of_quickcircle"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/background">
+  		
+  		<Button 
+  		    android:id="@+id/start_back_btn" 
+  		    android:layout_width="43dp" 
+  		    android:layout_height="23dp" 
+  		    android:layout_alignParentBottom="true" 
+  		    android:layout_centerHorizontal="true" 
+  		    android:layout_marginBottom="37dp" 
+  		    android:background="@drawable/backbutton" />
+
+  		<Button
+  		    android:id="@+id/start_game_select"
+  		    android:layout_width="wrap_content"
+  		    android:layout_height="wrap_content"
+  		    android:layout_above="@+id/start_back_btn"
+  		    android:layout_marginBottom="38dp"
+  		    android:layout_toRightOf="@+id/start_back_btn"
+  		    android:background="#333333"
+  		    android:textColor="#FFFFFF"
+  		    android:text="게임선택" />
+
+  		<Button
+  		    android:id="@+id/start_study"
+  		    android:layout_width="wrap_content"
+  		    android:layout_height="wrap_content"
+  		    android:layout_alignBaseline="@+id/start_game_select"
+  		    android:layout_alignBottom="@+id/start_game_select"
+  		    android:layout_toLeftOf="@+id/start_back_btn"
+  		    android:background="#333333"
+  		    android:text="단어공부"
+  		    android:textColor="#FFFFFF" />
+
+  		<Button
+  		    android:id="@+id/title"
+  		    android:layout_width="wrap_content"
+  		    android:layout_height="wrap_content"
+  		    android:layout_above="@+id/start_game_select"
+  		    android:layout_alignParentLeft="true"
+  		    android:layout_marginBottom="22dp"
+  		    android:background="#333333"
+  		    android:text="신나는 영어공부"
+  		    android:textColor="#FFFFFF"
+  		    android:textSize="23pt" />
+  	    
+    </RelativeLayout>
+
+</RelativeLayout>

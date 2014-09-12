@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|center_horizontal"
+    android:background="@android:color/transparent"
+    tools:context=".QCircleActivity" >
+
+    <RelativeLayout
+        android:id="@+id/cover_main_view"
+        android:layout_width="@dimen/physical_width_of_quickcircle"
+        android:layout_height="@dimen/physical_height_of_quickcircle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/updown_background" >
+
+        <Button
+            android:id="@+id/goto3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/back_btn"
+            android:layout_alignLeft="@+id/goto1"
+            android:layout_marginBottom="17dp"
+            android:background="@drawable/updown_b"
+            android:text="바다로 떠나요!" />
+
+        <Button
+            android:id="@+id/goto1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/goto3"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/updown_b"
+            android:text="하늘로 떠나요!" />
+
+        <Button
+            android:id="@+id/goto2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/goto1"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/updown_b"
+            android:text="우주로 떠나요" />
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="43dp"
+            android:layout_height="23dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/backbutton" />
+    </RelativeLayout>
+
+</RelativeLayout>

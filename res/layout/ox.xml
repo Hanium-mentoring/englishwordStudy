@@ -1,0 +1,60 @@
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_gravity="top|center_horizontal" android:background="#000000" tools:context=".QCircleActivity">
+
+ <RelativeLayout
+     android:id="@+id/ox_main_view"
+     android:layout_width="@dimen/physical_width_of_quickcircle"
+     android:layout_height="@dimen/physical_height_of_quickcircle"
+     android:background="@drawable/ox" >
+
+     <Button
+         android:id="@+id/ox_back_btn"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="20dp"
+         android:background="@drawable/backbutton" />
+
+     <Button
+         android:id="@+id/ox_right_btn"
+         android:layout_width="100dp"
+         android:layout_height="200dp"
+         android:layout_alignBaseline="@+id/ox_left_btn"
+         android:layout_alignBottom="@+id/ox_left_btn"
+         android:layout_toRightOf="@+id/ox_back_btn"
+          android:background="#00ff0000"
+         android:text="X!"
+          />
+
+     <Button
+         android:id="@+id/ox_voca"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="39dp"
+         android:background="#00ff0000"
+         android:text="       " />
+
+     <Button
+         android:id="@+id/ox_left_btn"
+         android:layout_width="100dp"
+         android:layout_height="200dp"
+         android:layout_alignBottom="@+id/ox_back_btn"
+         android:layout_marginBottom="20dp"
+         android:layout_toLeftOf="@+id/ox_back_btn"
+         android:background="#00ff0000"
+         android:text="O!"
+           />
+
+     <Button
+         android:id="@+id/score"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/ox_back_btn"
+         android:layout_centerHorizontal="true"
+         android:background="#00ff0000"
+         android:text="맞춘 개수 : 0" />
+  
+  </RelativeLayout>
+  </RelativeLayout>
