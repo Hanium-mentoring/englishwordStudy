@@ -411,7 +411,9 @@ public class Acid_Rain {
 		{
 		 Vocas_select = return_random(Vocas.size()-1);
 		
-		if(Vocas.get(Vocas_select).getEnglish().length()<=10)	
+		 if(Vocas.get(Vocas_select).getEnglish().indexOf(" ")!= -1)
+			 continue;
+		 else if(Vocas.get(Vocas_select).getEnglish().length()<=10)	
 			break;
 		
 		}

@@ -56,6 +56,7 @@ public class StudyAdapter extends ArrayAdapter<String>{
 		this.context = context;
 		this.array = array;
 	
+		
 	}
 	
 	@Override
@@ -105,7 +106,7 @@ public class StudyAdapter extends ArrayAdapter<String>{
 					
 					ReadExcel re = new ReadExcel(is);
 
-					ArrayList<VocaDTO> list = re.Return_Data((20*((Integer)v.getTag())));
+					ArrayList<VocaDTO> list = re.Return_Data((((Integer)v.getTag())));
 					
 					db.CreateTable(database);
 				

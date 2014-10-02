@@ -24,7 +24,7 @@ public class FullScreen_startActivity extends Activity{
 		ArrayList<String> days = new ArrayList<String>();
 	
 		
-		for(int i=1; i<=10; i++)
+		for(int i=1; i<=20; i++)
 		{
 			days.add(i+"ÀÏÂ÷");
 		}

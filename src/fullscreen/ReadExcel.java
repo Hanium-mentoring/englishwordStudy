@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import dto.VocaDTO;
 
 import android.content.Context;
+import android.util.Log;
 import jxl.*;
 import jxl.read.biff.BiffException;
 
@@ -31,7 +32,9 @@ public class ReadExcel {
 		try {
 			workbook = Workbook.getWorkbook(is);
 			sheets = workbook.getSheet(0);
+			number = 20 * number;
 			
+			Log.d("Readexcel", number+"position");
 			for(i=number; i<(number+20) ;i++)
 			{
 				VocaDTO voca = new VocaDTO();

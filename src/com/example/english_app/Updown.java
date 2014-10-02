@@ -111,7 +111,7 @@ public class Updown {
 
 				ViewGroup.MarginLayoutParams margin = new ViewGroup.MarginLayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT,RelativeLayout.LayoutParams.WRAP_CONTENT);
 				
-				margin.setMargins(280,320,200,0);
+				margin.setMargins(270,320,200,0);
 				
 				tv.setLayoutParams(new RelativeLayout.LayoutParams(margin));
 				
@@ -121,8 +121,17 @@ public class Updown {
 				else
 				{
 					if(touch>1)
+					{
 					tv.setText(list.get(voca_count).getEnglish()+"\n"+list.get(voca_count).getKorean());
-				}	
+					ViewGroup.MarginLayoutParams margin = new ViewGroup.MarginLayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT,RelativeLayout.LayoutParams.WRAP_CONTENT);
+					
+					margin.setMargins(270,320,200,0);
+						
+					tv.setLayoutParams(new RelativeLayout.LayoutParams(margin));
+					
+					}
+					
+					}	
 			}
 		});
 		
