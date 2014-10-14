@@ -15,7 +15,7 @@
         android:label="신나는 영어공부"
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
         <activity
-            android:name="com.example.english_app.Start_Activity"
+            android:name="com.qcircle.english_app.Start_Activity"
             android:icon="@drawable/word"
              android:configChanges="orientation|keyboardHidden|screenSize"
             android:excludeFromRecents="true"
