@@ -15,7 +15,7 @@ import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.example.kk_excel.R;
+import com.qcircle.kk_excel.R;
 
 import database.Database;
 import dto.VocaDTO;

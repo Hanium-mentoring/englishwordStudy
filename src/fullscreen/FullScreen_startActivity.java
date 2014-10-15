@@ -2,9 +2,9 @@ package fullscreen;
 
 import java.util.ArrayList;
 
-import com.example.kk_excel.R;
-import com.example.kk_excel.R.id;
-import com.example.kk_excel.R.layout;
+import com.qcircle.kk_excel.R;
+import com.qcircle.kk_excel.R.id;
+import com.qcircle.kk_excel.R.layout;
 
 import adapter.StudyAdapter;
 import android.app.Activity;

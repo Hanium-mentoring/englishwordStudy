@@ -2,7 +2,7 @@ package com.qcircle.english_app;
 
 import oxQuiz.Ox_include_explain;
 import quiz.Quiz_include_explain;
-import com.example.kk_excel.R;
+import com.qcircle.kk_excel.R;
 
 import acid_rain.Acid_Rain;
 

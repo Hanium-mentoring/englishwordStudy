@@ -2,7 +2,7 @@ package com.qcircle.english_app;
 
 import java.util.ArrayList;
 
-import com.example.kk_excel.R;
+import com.qcircle.kk_excel.R;
 
 import dto.VocaDTO;
 import fullscreen.FullScreen_startActivity;

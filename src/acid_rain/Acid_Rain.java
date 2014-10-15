@@ -5,7 +5,7 @@ import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import com.example.kk_excel.R;
+import com.qcircle.kk_excel.R;
 
 import database.Database;
 import dto.ViewDTO;
